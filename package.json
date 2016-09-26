@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "test": "jest -c jest.config.json"
+  },
+  "devDependencies": {
+    "jest-cli": "^15.0.0"
+  }
+}
