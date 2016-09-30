@@ -44,3 +44,19 @@ test('rejects on exception', () => {
   return waterfall(actions)
     .catch(e => expect(e).toBe('an error'))
 })
+
+test('after action', () => {
+  const actions = []
+
+  actions.push(next => {
+    return next(1)
+      .then(two => two + 1)
+  })
+
+  actions.push(one => {
+    return one + 1
+  })
+
+  return waterfall(actions)
+    .then(r => expect(r).toBe(3))
+})
