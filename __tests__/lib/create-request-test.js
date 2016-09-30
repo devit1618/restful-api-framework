@@ -24,6 +24,10 @@ test('"headers" property to be defined', () => {
   expect(request.headers).toBeDefined()
 })
 
+test('"setEncoding" function to be defined', () => {
+  expect(request.setEncoding).toBeDefined()
+})
+
 test('"on" function to be defined', () => {
   expect(request.on).toBeDefined()
 })
