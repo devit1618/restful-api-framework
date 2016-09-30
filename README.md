@@ -4,5 +4,6 @@
 * [Parte 2: request](https://medium.com/@nicolasparada/restful-api-en-node-js-sin-frameworks-parte-2-4ec86b137ada)
 * [Parte 3: waterfall](https://medium.com/@nicolasparada/restful-api-en-node-js-sin-frameworks-parte-3-8f4ef9fa6196)
 * [Parte 4: response](https://medium.com/@nicolasparada/restful-api-en-node-js-sin-frameworks-parte-4-response-6ab5297b1262)
+* [Parte 5: httpHandler](https://medium.com/@nicolasparada/restful-api-en-node-js-sin-frameworks-parte-5-use-facd57512f5d)
 
 _En construcción..._
