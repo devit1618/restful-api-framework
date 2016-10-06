@@ -7,5 +7,4 @@
 * [Parte 5: httpHandler](https://medium.com/@nicolasparada/restful-api-en-node-js-sin-frameworks-parte-5-use-facd57512f5d)
 * [Parte 6: router](https://medium.com/@nicolasparada/restful-api-en-node-js-sin-frameworks-parte-6-router-cdb158325344)
 * [Parte 7: json body parser](https://medium.com/@nicolasparada/restful-api-en-node-js-sin-frameworks-parte-7-json-body-parser-138959d51612)
-
-_En construcción..._
+* [Parte 8: final](https://medium.com/@nicolasparada/restful-api-en-node-js-sin-frameworks-parte-8-final-68df522cd89f)
