@@ -60,3 +60,26 @@ test('after action', () => {
   return waterfall(actions)
     .then(r => expect(r).toBe(3))
 })
+
+test('generator', () => {
+  const actions = []
+
+  const getValueAsync = (value, ms) => new Promise(resolve => {
+    setTimeout(() => {
+      resolve(value)
+    }, ms)
+  })
+
+  actions.push(function* (next) {
+    const one = yield getValueAsync(1, 200)
+    return next(one)
+  })
+
+  actions.push(function* (one, next) {
+    const two = yield getValueAsync(2, 200)
+    return next(one + two)
+  })
+
+  return waterfall(actions)
+    .then(r => expect(r).toBe(3))
+})
